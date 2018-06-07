@@ -10,6 +10,11 @@
     "require": {
         "php": "^7.0"
     },
+    "autoload": {
+        "psr-4": {
+            "Hilovska\\Pairs\\": "src/"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [

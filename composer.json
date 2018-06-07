@@ -1,0 +1,20 @@
+{
+    "name": "hilovska/pairs",
+    "description": "Elaboration an assignment for a job offer",
+    "authors": [
+        {
+            "name": "Lydia Hilovska",
+            "email": "hilovska.lydia@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hilovska\\Pairs\\PairsServiceProvider",
+            ]
+        }
+    },
+}
